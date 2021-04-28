@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+main {
+    margin: 30px;
+    display: flex;
+}
+
+a {
+    font-style: normal;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 50px;
+    width: 70%;
+    background-color: white;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 20%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1000px){
+    main {
+        display:block;
+    }
+    .container {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .sidebar {
+        width: 100%;
+    }
+}
